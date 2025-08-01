@@ -23,11 +23,11 @@ function Navbar({ onSearch }) {
         </div>
 
         <div className="hidden md:flex gap-6 text-sm items-center">
-          <a href="#">Find Job</a>
-          <a href="#">Find Talent</a>
-          <a href="#">Post Job</a>
-          <a href="#">Posted Job</a>
-          <a href="#">Job History</a>
+          <a href="">Find Job</a>
+          <a href="">Find Talent</a>
+          <a href="">Post Job</a>
+          <a href="">Posted Job</a>
+          <a href="">Job History</a>
         </div>
 
       
@@ -75,11 +75,11 @@ function Navbar({ onSearch }) {
           </button>
         </div>
         <nav className="flex flex-col gap-4 p-4 text-white text-base">
-          <a href="#" onClick={() => setSidebarOpen(false)}>Find Job</a>
-          <a href="#" onClick={() => setSidebarOpen(false)}>Find Talent</a>
-          <a href="#" onClick={() => setSidebarOpen(false)}>Post Job</a>
-          <a href="#" onClick={() => setSidebarOpen(false)}>Posted Job</a>
-          <a href="#" onClick={() => setSidebarOpen(false)}>Job History</a>
+          <a href="" onClick={() => setSidebarOpen(false)}>Find Job</a>
+          <a href="" onClick={() => setSidebarOpen(false)}>Find Talent</a>
+          <a href="" onClick={() => setSidebarOpen(false)}>Post Job</a>
+          <a href="" onClick={() => setSidebarOpen(false)}>Posted Job</a>
+          <a href="" onClick={() => setSidebarOpen(false)}>Job History</a>
           
            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"
               fill="none" stroke="currentColor" strokeWidth="2"
